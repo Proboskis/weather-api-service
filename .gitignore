@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.egg/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Mac / Windows files
+.DS_Store
+Thumbs.db
+
+# MyPy
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Log files
+logs/
+*.log
+
+# Docker
+*.swap
+docker-compose.override.yml
+
+# Local env
+.env

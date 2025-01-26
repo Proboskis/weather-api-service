@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  weather_api:
+    build: .
+    container_name: weather_api_container
+    ports:
+      - "8000:8000"
+    # Loads environment variables from the root .env file
+    env_file:
+      - .env
+
+    # Mount volumes for logs (and cache if needed)
+    volumes:
+      # Mount the entire ./logs directory to /app/logs in the container
+      - ./logs:/app/logs
+
+      # OPTIONAL: If you want to persist cache on the host, do:
+      - ./cache:/app/cache
