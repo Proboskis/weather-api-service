@@ -111,7 +111,7 @@ This application fulfills the following requirements:
 1. **Clone** the repository:
 
 ```bash
-git clone https://github.com/<your-username>/weather-api-service.git
+git clone https://github.com/Proboskis/weather-api-service.git
 
 cd weather-api-service
 ```
@@ -144,7 +144,7 @@ uvicorn app.main:app --reload
 1. **Clone** the repository:
 
 ```bash
-git clone https://github.com/<your-username>/weather-api-service.git
+git clone https://github.com/Proboskis/weather-api-service.git
 
 cd weather-api-service
 ```
@@ -191,4 +191,4 @@ docker-compose up
 > Also for a future full-stack application it could be of great benefit to use Github CI/CD actions or Jenkins to automate the softvare development lifecycle.
 > Kubernetes could be used together with docker, should the application expand, and should there be a need to orchestrate many containers.
 > An Angular, or a React (preferably Next.js) frontend can be built out.
-> Unit testing for both backedn and frontend...
+> Unit testing for both backend and frontend...
